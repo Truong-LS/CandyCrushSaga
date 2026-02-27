@@ -1,0 +1,2171 @@
+fileFormatVersion: 2
+guid: 39f3025776e5ed24db34ade93ed78a9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4727145618175616300
+    second: All Crush_0
+  - first:
+      213: 4862758447207062701
+    second: All Crush_1
+  - first:
+      213: -5272487262820190719
+    second: All Crush_2
+  - first:
+      213: 3347058265096669824
+    second: All Crush_3
+  - first:
+      213: 2431662604170281310
+    second: All Crush_4
+  - first:
+      213: -4472964085020695533
+    second: All Crush_5
+  - first:
+      213: 2066708396747977625
+    second: All Crush_6
+  - first:
+      213: 8112227313607334366
+    second: All Crush_7
+  - first:
+      213: -7504988075108055471
+    second: All Crush_8
+  - first:
+      213: -9050976541181681028
+    second: All Crush_9
+  - first:
+      213: -8795558550280329217
+    second: All Crush_10
+  - first:
+      213: 6899828693909051862
+    second: All Crush_11
+  - first:
+      213: 2207180488903043350
+    second: All Crush_12
+  - first:
+      213: 4000622258166506692
+    second: All Crush_13
+  - first:
+      213: -6273215730133559194
+    second: All Crush_14
+  - first:
+      213: -4912117730998955172
+    second: All Crush_15
+  - first:
+      213: 2278555692097839143
+    second: All Crush_16
+  - first:
+      213: 103252262938433064
+    second: All Crush_17
+  - first:
+      213: -5601905968718200862
+    second: All Crush_18
+  - first:
+      213: -8472674763871490377
+    second: All Crush_19
+  - first:
+      213: -2246047002666407926
+    second: All Crush_20
+  - first:
+      213: -3873010766809242736
+    second: All Crush_21
+  - first:
+      213: 2941649747300461149
+    second: All Crush_22
+  - first:
+      213: -840706948305565851
+    second: All Crush_23
+  - first:
+      213: 3791330732484422941
+    second: All Crush_24
+  - first:
+      213: 8532768456616874534
+    second: All Crush_25
+  - first:
+      213: -8703628744181537449
+    second: All Crush_26
+  - first:
+      213: -682828188126963500
+    second: All Crush_27
+  - first:
+      213: 3682990214091298679
+    second: All Crush_28
+  - first:
+      213: 6220607628752914465
+    second: All Crush_29
+  - first:
+      213: -3220227825260043730
+    second: All Crush_30
+  - first:
+      213: -1650252202532051235
+    second: All Crush_31
+  - first:
+      213: -3077588707908755652
+    second: All Crush_32
+  - first:
+      213: -990916474548361191
+    second: All Crush_33
+  - first:
+      213: 4775631472400790654
+    second: All Crush_34
+  - first:
+      213: -2980740923191728391
+    second: All Crush_35
+  - first:
+      213: -2040695139627610504
+    second: All Crush_36
+  - first:
+      213: -7009261645857622014
+    second: All Crush_37
+  - first:
+      213: -5144749216146241476
+    second: All Crush_38
+  - first:
+      213: -1360157452261526849
+    second: All Crush_39
+  - first:
+      213: -2601481065722973169
+    second: All Crush_40
+  - first:
+      213: -6511566976773479853
+    second: All Crush_41
+  - first:
+      213: -4827628365154412842
+    second: All Crush_42
+  - first:
+      213: -5168992862464251194
+    second: All Crush_43
+  - first:
+      213: -4159915405290751755
+    second: All Crush_44
+  - first:
+      213: 2249316866463159544
+    second: All Crush_45
+  - first:
+      213: -7384604155993069617
+    second: All Crush_46
+  - first:
+      213: 6818048735371679690
+    second: All Crush_47
+  - first:
+      213: 5964768303900758534
+    second: All Crush_48
+  - first:
+      213: 7008556991951585793
+    second: All Crush_49
+  - first:
+      213: 1816684753549724205
+    second: All Crush_50
+  - first:
+      213: -4296649640460404924
+    second: All Crush_51
+  - first:
+      213: 579324607731129834
+    second: All Crush_52
+  - first:
+      213: -8205983846392705500
+    second: All Crush_53
+  - first:
+      213: -5504571580222037901
+    second: All Crush_54
+  - first:
+      213: 5899546468836338654
+    second: All Crush_55
+  - first:
+      213: 4425544024835535487
+    second: All Crush_56
+  - first:
+      213: 4882501633831767185
+    second: All Crush_57
+  - first:
+      213: -7943162160111814384
+    second: All Crush_58
+  - first:
+      213: 6304886669173608658
+    second: All Crush_59
+  - first:
+      213: 195752265888297393
+    second: All Crush_60
+  - first:
+      213: -1558686884054956377
+    second: All Crush_61
+  - first:
+      213: 7228446979392527064
+    second: All Crush_62
+  - first:
+      213: -220358125739598346
+    second: All Crush_63
+  - first:
+      213: -6657085894657987879
+    second: All Crush_64
+  - first:
+      213: 8040943191600908153
+    second: All Crush_65
+  - first:
+      213: -3216377948057843848
+    second: All Crush_66
+  - first:
+      213: -5526979581753661073
+    second: All Crush_67
+  - first:
+      213: 7429064431472168190
+    second: All Crush_68
+  - first:
+      213: 2591057742647090573
+    second: All Crush_69
+  - first:
+      213: 1909802011895392526
+    second: All Crush_70
+  - first:
+      213: -4734292265126166612
+    second: All Crush_71
+  - first:
+      213: 8268745995485227197
+    second: All Crush_72
+  - first:
+      213: -4662617660488428863
+    second: All Crush_73
+  - first:
+      213: -9014944076350774604
+    second: All Crush_74
+  - first:
+      213: 4831901499989269376
+    second: All Crush_75
+  - first:
+      213: -5835165015811685752
+    second: All Crush_76
+  - first:
+      213: -5642981043923906397
+    second: All Crush_77
+  - first:
+      213: -6876965939545233509
+    second: All Crush_78
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: All Crush_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 566
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4da19131b1ec56eb0800000000000000
+      internalID: -4727145618175616300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1134
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac9e423b0dfb7340800000000000000
+      internalID: 4862758447207062701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1132
+        width: 52
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106b4d0f4cc54d6b0800000000000000
+      internalID: -5272487262820190719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_3
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 1133
+        width: 56
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a4f9532c3237e20800000000000000
+      internalID: 3347058265096669824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_4
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 1132
+        width: 60
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51cb2741400fb120800000000000000
+      internalID: 2431662604170281310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_5
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 1133
+        width: 67
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314e24b0dd6dce1c0800000000000000
+      internalID: -4472964085020695533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_6
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 1133
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 993fa72465c6eac10800000000000000
+      internalID: 2066708396747977625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1037
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed959c4e2cb649070800000000000000
+      internalID: 8112227313607334366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 1036
+        width: 56
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15644abdb1de8d790800000000000000
+      internalID: -7504988075108055471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_9
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 1037
+        width: 59
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72e8783ac8746280800000000000000
+      internalID: -9050976541181681028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_10
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1036
+        width: 65
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff724617916efe580800000000000000
+      internalID: -8795558550280329217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_11
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 1038
+        width: 71
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d91f77e3ad11cf50800000000000000
+      internalID: 6899828693909051862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_12
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1037
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6192d34e5fa71ae10800000000000000
+      internalID: 2207180488903043350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_13
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 946
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c429826fb0158730800000000000000
+      internalID: 4000622258166506692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_14
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 944
+        width: 51
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6681ff5c78f01f8a0800000000000000
+      internalID: -6273215730133559194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_15
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 944
+        width: 55
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c53d8ecf2f6a4dbb0800000000000000
+      internalID: -4912117730998955172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_16
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 944
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720af64645e0f9f10800000000000000
+      internalID: 2278555692097839143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_17
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 945
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82653b6d263de6100800000000000000
+      internalID: 103252262938433064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_18
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 945
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ef396d93380242b0800000000000000
+      internalID: -5601905968718200862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_19
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 852
+        width: 63
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bee50241330b6a80800000000000000
+      internalID: -8472674763871490377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_20
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 851
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a08ec31b62074d0e0800000000000000
+      internalID: -2246047002666407926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_21
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 850
+        width: 55
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09362194a3d404ac0800000000000000
+      internalID: -3873010766809242736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_22
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 850
+        width: 61
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5a26711cd6d2d820800000000000000
+      internalID: 2941649747300461149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_23
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 851
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5674b0a1c753554f0800000000000000
+      internalID: -840706948305565851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_24
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 851
+        width: 68
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d61cfb6338d9430800000000000000
+      internalID: 3791330732484422941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_25
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 759
+        width: 69
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6229e47e3bb7a6670800000000000000
+      internalID: 8532768456616874534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_26
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 758
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7552e2e55cf763780800000000000000
+      internalID: -8703628744181537449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_27
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 758
+        width: 72
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d89114716b1686f0800000000000000
+      internalID: -682828188126963500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_28
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 758
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777d62e161c9c1330800000000000000
+      internalID: 3682990214091298679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_29
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 759
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12807ee1ea9045650800000000000000
+      internalID: 6220607628752914465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_30
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 759
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22eb8bbad37f43d0800000000000000
+      internalID: -3220227825260043730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_31
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 663
+        width: 70
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd6654e7d502919e0800000000000000
+      internalID: -1650252202532051235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_32
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 664
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f585c30653a45d0800000000000000
+      internalID: -3077588707908755652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_33
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 664
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 918667c67be8f32f0800000000000000
+      internalID: -990916474548361191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_34
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 664
+        width: 71
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e74ff929583764240800000000000000
+      internalID: 4775631472400790654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_35
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 664
+        width: 72
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f6efa94ce742a6d0800000000000000
+      internalID: -2980740923191728391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_36
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 664
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87e41a3259efda3e0800000000000000
+      internalID: -2040695139627610504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_37
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 570
+        width: 70
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208f2e47ba91abe90800000000000000
+      internalID: -7009261645857622014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_38
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 570
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38422198dd2a98b0800000000000000
+      internalID: -5144749216146241476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_39
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 570
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2f95be000cf1de0800000000000000
+      internalID: -1360157452261526849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_40
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 570
+        width: 71
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f047da301cea5ebd0800000000000000
+      internalID: -2601481065722973169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_41
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 570
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 352a04a955442a5a0800000000000000
+      internalID: -6511566976773479853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_42
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 570
+        width: 70
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d61f5b6491d00db0800000000000000
+      internalID: -4827628365154412842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_43
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 470
+        width: 79
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cae94ac06c0448b0800000000000000
+      internalID: -5168992862464251194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_44
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 471
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f838f3aaf20546c0800000000000000
+      internalID: -4159915405290751755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_45
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 472
+        width: 76
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4d4dcc5cd273f10800000000000000
+      internalID: 2249316866463159544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_46
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 471
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc7e82b35ad948990800000000000000
+      internalID: -7384604155993069617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_47
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 471
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7512583339e9e50800000000000000
+      internalID: 6818048735371679690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_48
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 471
+        width: 77
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60293817b2d17c250800000000000000
+      internalID: 5964768303900758534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_49
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 381
+        width: 75
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 102ca558375634160800000000000000
+      internalID: 7008556991951585793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_50
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 381
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2a033c7829263910800000000000000
+      internalID: 1816684753549724205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_51
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 381
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4473c08aaeb3f54c0800000000000000
+      internalID: -4296649640460404924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 381
+        width: 76
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aedd47d49ac2a0800800000000000000
+      internalID: 579324607731129834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_53
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 381
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e4b2b3b2d7e1e80800000000000000
+      internalID: -8205983846392705500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_54
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 381
+        width: 75
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370a720ff45db93b0800000000000000
+      internalID: -5504571580222037901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_55
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 286
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb66ea91466fd150800000000000000
+      internalID: 5899546468836338654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_56
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 285
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72bc22d7d0ba6d30800000000000000
+      internalID: 4425544024835535487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_57
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 285
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19c8ecb0e5122c340800000000000000
+      internalID: 4882501633831767185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_58
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 285
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 019f53d991834c190800000000000000
+      internalID: -7943162160111814384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_59
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 285
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d0503955057f7750800000000000000
+      internalID: 6304886669173608658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_60
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 285
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b1ff3016a377b200800000000000000
+      internalID: 195752265888297393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_61
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 192
+        width: 59
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a608d7898e6e5ae0800000000000000
+      internalID: -1558686884054956377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_62
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 191
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dadf64da3a905460800000000000000
+      internalID: 7228446979392527064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_63
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 191
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fd9befb37121fcf0800000000000000
+      internalID: -220358125739598346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_64
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 191
+        width: 59
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daa5a946a74d93a0800000000000000
+      internalID: -6657085894657987879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_65
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 192
+        width: 60
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 977c772ea3b279f60800000000000000
+      internalID: 8040943191600908153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_66
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 192
+        width: 60
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877cc9e1c412d53d0800000000000000
+      internalID: -3216377948057843848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_67
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 101
+        width: 66
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f696cb48a593c43b0800000000000000
+      internalID: -5526979581753661073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_68
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 101
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc43635db6591760800000000000000
+      internalID: 7429064431472168190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_69
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 99
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d5107f94945f320800000000000000
+      internalID: 2591057742647090573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_70
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 99
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09e95eafcaf08a10800000000000000
+      internalID: 1909802011895392526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_71
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 99
+        width: 65
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf764aa44a6c4eb0800000000000000
+      internalID: -4734292265126166612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_72
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 101
+        width: 65
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db8a4d65cac70c270800000000000000
+      internalID: 8268745995485227197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_73
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 4
+        width: 65
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c2df1ff0fd0b4fb0800000000000000
+      internalID: -4662617660488428863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_74
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 6
+        width: 65
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2a913302c74e280800000000000000
+      internalID: -9014944076350774604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_75
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 3
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b998050dc5e0340800000000000000
+      internalID: 4831901499989269376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_76
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 6
+        width: 65
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88202ca8554550fa0800000000000000
+      internalID: -5835165015811685752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_77
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 0
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a017aa63aa10b1b0800000000000000
+      internalID: -5642981043923906397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: All Crush_78
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 0
+        width: 74
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9722f8e9eb1090a0800000000000000
+      internalID: -6876965939545233509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      All Crush_0: -4727145618175616300
+      All Crush_1: 4862758447207062701
+      All Crush_10: -8795558550280329217
+      All Crush_11: 6899828693909051862
+      All Crush_12: 2207180488903043350
+      All Crush_13: 4000622258166506692
+      All Crush_14: -6273215730133559194
+      All Crush_15: -4912117730998955172
+      All Crush_16: 2278555692097839143
+      All Crush_17: 103252262938433064
+      All Crush_18: -5601905968718200862
+      All Crush_19: -8472674763871490377
+      All Crush_2: -5272487262820190719
+      All Crush_20: -2246047002666407926
+      All Crush_21: -3873010766809242736
+      All Crush_22: 2941649747300461149
+      All Crush_23: -840706948305565851
+      All Crush_24: 3791330732484422941
+      All Crush_25: 8532768456616874534
+      All Crush_26: -8703628744181537449
+      All Crush_27: -682828188126963500
+      All Crush_28: 3682990214091298679
+      All Crush_29: 6220607628752914465
+      All Crush_3: 3347058265096669824
+      All Crush_30: -3220227825260043730
+      All Crush_31: -1650252202532051235
+      All Crush_32: -3077588707908755652
+      All Crush_33: -990916474548361191
+      All Crush_34: 4775631472400790654
+      All Crush_35: -2980740923191728391
+      All Crush_36: -2040695139627610504
+      All Crush_37: -7009261645857622014
+      All Crush_38: -5144749216146241476
+      All Crush_39: -1360157452261526849
+      All Crush_4: 2431662604170281310
+      All Crush_40: -2601481065722973169
+      All Crush_41: -6511566976773479853
+      All Crush_42: -4827628365154412842
+      All Crush_43: -5168992862464251194
+      All Crush_44: -4159915405290751755
+      All Crush_45: 2249316866463159544
+      All Crush_46: -7384604155993069617
+      All Crush_47: 6818048735371679690
+      All Crush_48: 5964768303900758534
+      All Crush_49: 7008556991951585793
+      All Crush_5: -4472964085020695533
+      All Crush_50: 1816684753549724205
+      All Crush_51: -4296649640460404924
+      All Crush_52: 579324607731129834
+      All Crush_53: -8205983846392705500
+      All Crush_54: -5504571580222037901
+      All Crush_55: 5899546468836338654
+      All Crush_56: 4425544024835535487
+      All Crush_57: 4882501633831767185
+      All Crush_58: -7943162160111814384
+      All Crush_59: 6304886669173608658
+      All Crush_6: 2066708396747977625
+      All Crush_60: 195752265888297393
+      All Crush_61: -1558686884054956377
+      All Crush_62: 7228446979392527064
+      All Crush_63: -220358125739598346
+      All Crush_64: -6657085894657987879
+      All Crush_65: 8040943191600908153
+      All Crush_66: -3216377948057843848
+      All Crush_67: -5526979581753661073
+      All Crush_68: 7429064431472168190
+      All Crush_69: 2591057742647090573
+      All Crush_7: 8112227313607334366
+      All Crush_70: 1909802011895392526
+      All Crush_71: -4734292265126166612
+      All Crush_72: 8268745995485227197
+      All Crush_73: -4662617660488428863
+      All Crush_74: -9014944076350774604
+      All Crush_75: 4831901499989269376
+      All Crush_76: -5835165015811685752
+      All Crush_77: -5642981043923906397
+      All Crush_78: -6876965939545233509
+      All Crush_8: -7504988075108055471
+      All Crush_9: -9050976541181681028
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
