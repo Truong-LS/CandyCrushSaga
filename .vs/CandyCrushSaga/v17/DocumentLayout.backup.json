@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\CandyCrushSaga\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|d:\\candycrushsaga\\assets\\code\\scripts\\settingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\settingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|d:\\candycrushsaga\\assets\\code\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -55,6 +59,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SettingUI.cs",
+              "DocumentMoniker": "D:\\CandyCrushSaga\\Assets\\Code\\Scripts\\SettingUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\SettingUI.cs",
+              "ToolTip": "D:\\CandyCrushSaga\\Assets\\Code\\Scripts\\SettingUI.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\SettingUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-27T20:11:28.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "BoardManager.cs",
               "DocumentMoniker": "D:\\CandyCrushSaga\\Assets\\Code\\Scripts\\BoardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\BoardManager.cs",

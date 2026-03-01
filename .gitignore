@@ -11,7 +11,7 @@
 *.sln
 *.user
 *.userprefs
-
+.vs
 # OS
 .DS_Store
 Thumbs.db
