@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Editor\\ForceStartScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Editor\\ForceStartScene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|d:\\ki7\\pru213\\bainhom\\candycrushsaga\\assets\\code\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|d:\\ki7\\pru213\\bainhom\\candycrushsaga\\assets\\code\\scripts\\settingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\assets\\code\\scripts\\settingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\settingui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|d:\\ki7\\pru213\\bainhom\\candycrushsaga\\assets\\code\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F76327A7-5DC6-A580-B8A6-2C9F15C24BA2}|Assembly-CSharp-Editor.csproj|d:\\ki7\\pru213\\bainhom\\candycrushsaga\\assets\\editor\\forcestartscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F76327A7-5DC6-A580-B8A6-2C9F15C24BA2}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\editor\\forcestartscene.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\assets\\code\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|solutionrelative:assets\\code\\scripts\\scenecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{98A3BFD8-4D34-14E3-471D-97B7307ADAFB}|Assembly-CSharp.csproj|D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\assets\\code\\scripts\\boardmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,24 +30,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Code\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\UIManager.cs",
+              "ToolTip": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Code\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Code\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-01T10:43:12.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ForceStartScene.cs",
               "DocumentMoniker": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Editor\\ForceStartScene.cs",
               "RelativeDocumentMoniker": "Assets\\Editor\\ForceStartScene.cs",
               "ToolTip": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Editor\\ForceStartScene.cs",
               "RelativeToolTip": "Assets\\Editor\\ForceStartScene.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-01T10:37:56.152Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SceneController.cs",
               "DocumentMoniker": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Code\\Scripts\\SceneController.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\SceneController.cs",
@@ -51,12 +68,11 @@
               "RelativeToolTip": "Assets\\Code\\Scripts\\SceneController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-01T10:13:36.706Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-03-01T10:13:36.706Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SettingUI.cs",
               "DocumentMoniker": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Code\\Scripts\\SettingUI.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\SettingUI.cs",
@@ -69,7 +85,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "BoardManager.cs",
               "DocumentMoniker": "D:\\Ki7\\PRU213\\BaiNhom\\CandyCrushSaga\\Assets\\Code\\Scripts\\BoardManager.cs",
               "RelativeDocumentMoniker": "Assets\\Code\\Scripts\\BoardManager.cs",
