@@ -15,7 +15,15 @@ public class UIManager : MonoBehaviour
 
     void Awake()
     {
+        if (Instance != null && Instance != this)
+        {
+            Debug.LogWarning("Duplicate UIManager destroyed: " + gameObject.name);
+            Destroy(gameObject);
+            return;
+        }
+
         Instance = this;
+        Debug.Log("UIManager Awake: " + gameObject.name);
     }
 
     void Start()
@@ -26,6 +34,7 @@ public class UIManager : MonoBehaviour
     public void AddScore(int amount)
     {
         score += amount;
+        Debug.Log("UIManager score = " + score);
         UpdateUI();
     }
 

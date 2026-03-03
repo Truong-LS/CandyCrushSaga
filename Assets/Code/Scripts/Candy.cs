@@ -68,30 +68,90 @@ public class Candy : MonoBehaviour
                (Mathf.Abs(y - other.y) == 1 && x == other.x);
     }
 
+    //void SwapCandy(Candy other)
+    //{
+    //    BoardManager board = FindObjectOfType<BoardManager>();
+
+    //    // đổi trong mảng board
+    //    GameObject temp = board.board[x, y];
+    //    board.board[x, y] = board.board[other.x, other.y];
+    //    board.board[other.x, other.y] = temp;
+
+    //    // đổi vị trí hiển thị
+    //    Vector3 tempPos = other.transform.position;
+    //    other.transform.position = transform.position;
+    //    transform.position = tempPos;
+
+    //    // đổi tọa độ logic
+    //    int tempX = other.x;
+    //    int tempY = other.y;
+
+    //    other.x = x;
+    //    other.y = y;
+
+    //    x = tempX;
+    //    y = tempY;
+
+    //    Debug.Log("Swapped!");
+    //}
     void SwapCandy(Candy other)
     {
         BoardManager board = FindObjectOfType<BoardManager>();
 
-        // đổi trong mảng board
-        GameObject temp = board.board[x, y];
-        board.board[x, y] = board.board[other.x, other.y];
-        board.board[other.x, other.y] = temp;
+        // Lưu tọa độ ban đầu
+        int originalX = x;
+        int originalY = y;
+        int otherOriginalX = other.x;
+        int otherOriginalY = other.y;
 
-        // đổi vị trí hiển thị
-        Vector3 tempPos = other.transform.position;
-        other.transform.position = transform.position;
-        transform.position = tempPos;
+        // ===== SWAP MẢNG =====
+        board.board[originalX, originalY] = other.gameObject;
+        board.board[otherOriginalX, otherOriginalY] = gameObject;
 
-        // đổi tọa độ logic
-        int tempX = other.x;
-        int tempY = other.y;
+        // ===== SWAP TỌA ĐỘ =====
+        x = otherOriginalX;
+        y = otherOriginalY;
 
-        other.x = x;
-        other.y = y;
+        other.x = originalX;
+        other.y = originalY;
 
-        x = tempX;
-        y = tempY;
+        // ===== SWAP POSITION =====
+        Vector3 tempPos = transform.position;
+        transform.position = other.transform.position;
+        other.transform.position = tempPos;
 
         Debug.Log("Swapped!");
+
+        // 🔥 Check match nhưng KHÔNG trừ move ở đây
+        int matchCount = board.CheckMatches();
+
+        if (matchCount > 0)
+        {
+            // Match thành công → trừ move
+            UIManager.Instance.UseMove();
+        }
+        else
+        {
+            Debug.Log("No match → swap back");
+
+            // ===== SWAP BACK MẢNG =====
+            board.board[originalX, originalY] = gameObject;
+            board.board[otherOriginalX, otherOriginalY] = other.gameObject;
+
+            // ===== SWAP BACK TỌA ĐỘ =====
+            x = originalX;
+            y = originalY;
+
+            other.x = otherOriginalX;
+            other.y = otherOriginalY;
+
+            // ===== SWAP BACK POSITION =====
+            Vector3 backPos = transform.position;
+            transform.position = other.transform.position;
+            other.transform.position = backPos;
+
+            // 🔥 Theo yêu cầu của em: swap sai vẫn trừ move
+            UIManager.Instance.UseMove();
+        }
     }
 }
