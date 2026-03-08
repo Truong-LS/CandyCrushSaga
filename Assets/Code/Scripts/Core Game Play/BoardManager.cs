@@ -86,6 +86,9 @@ public class BoardManager : MonoBehaviour
 
     public void SwapCandies(Candy currentCandy, Vector2Int swipeDirection)
     {
+        // Chặn Game Over
+        if (UIManager.Instance.isGameOver) return;
+
         // Không cho thao tác nếu game đang xử lý kẹo rơi hoặc tính điểm
         if (currentState != GameState.Playing) return;
 
@@ -187,21 +190,21 @@ public class BoardManager : MonoBehaviour
 
     private void ProcessMatches(List<Candy> matchedCandies)
     {
-        // BƯỚC MỚI: Lấy ra TOÀN BỘ kẹo bị nổ (bao gồm cả nổ lan từ kẹo đặc biệt)
         List<Candy> allCandiesToDestroy = specialHandler.GetCandiesAffectedBySpecials(matchedCandies);
 
-        // Tính điểm dựa trên tổng số lượng kẹo thực sự nổ
-        UIManager.Instance.AddScore(allCandiesToDestroy.Count * 10);
+        // XÓA DÒNG NÀY: UIManager.Instance.AddScore(allCandiesToDestroy.Count * 10);
 
         // Hủy các viên kẹo
         foreach (Candy candy in allCandiesToDestroy)
         {
-            if (candy == null) continue; // Tránh lỗi Null
+            if (candy == null) continue;
 
             int x = candy.xIndex;
             int y = candy.yIndex;
 
-            // Đảm bảo không xóa nhầm kẹo mới sinh ra (trong trường hợp nâng cấp kẹo)
+            // --- THÊM DÒNG NÀY: Báo cho UIManager biết loại kẹo nào vừa nổ ---
+            UIManager.Instance.CollectCandy(candy.candyType);
+
             if (allCandies[x, y] == candy)
             {
                 allCandies[x, y] = null;
@@ -210,7 +213,6 @@ public class BoardManager : MonoBehaviour
             Destroy(candy.gameObject);
         }
 
-        // Gọi hệ thống trọng lực kéo kẹo xuống
         gravitySystem.StartGravity();
     }
 
@@ -222,23 +224,21 @@ public class BoardManager : MonoBehaviour
 
     private IEnumerator CheckMatchesRoutine()
     {
-        // Tìm xem kẹo mới rớt xuống có vô tình tạo ra match mới (Combo/Cascade) không
         List<Candy> matchedCandies = matchFinder.FindAllMatches();
 
         if (matchedCandies.Count > 0)
         {
-            // Combo liên hoàn (Cascade) -> Cần chờ kẹo rớt ổn định rồi mới phá tiếp
             yield return new WaitForSeconds(0.2f);
-
-            // Combo tự động rơi không có người chơi vuốt -> swipeDirection = zero, không có swipedCandy
             specialHandler.CheckAndSpawnSpecialCandy(matchedCandies, Vector2Int.zero, null);
-
             ProcessMatches(matchedCandies);
         }
         else
         {
-            // Không còn combo nào nữa -> Kết thúc lượt
-            currentState = GameState.Playing; // Mở khóa cho người chơi vuốt tiếp
+            // Bảng đã ổn định, không còn kẹo nổ
+            currentState = GameState.Playing;
+
+            // --- THÊM DÒNG NÀY: Kiểm tra xem có bị hết lượt không ---
+            UIManager.Instance.CheckLossCondition();
         }
     }
 
