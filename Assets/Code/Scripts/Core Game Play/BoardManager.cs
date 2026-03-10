@@ -18,6 +18,7 @@ public class BoardManager : MonoBehaviour
     public Candy[,] allCandies;
     public GameState currentState = GameState.Playing;
 
+
     [Header("Timing")]
     public float swapTime = 0.3f; // Thời gian chờ kẹo đổi chỗ (Lerp) xong mới check match
 
@@ -204,6 +205,8 @@ public class BoardManager : MonoBehaviour
 
             // --- THÊM DÒNG NÀY: Báo cho UIManager biết loại kẹo nào vừa nổ ---
             UIManager.Instance.CollectCandy(candy.candyType);
+
+
 
             if (allCandies[x, y] == candy)
             {

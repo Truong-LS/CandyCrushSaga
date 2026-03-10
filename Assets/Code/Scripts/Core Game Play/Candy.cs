@@ -100,4 +100,15 @@ public class Candy : MonoBehaviour
             spriteRenderer.color = isSelected ? Color.gray : originalColor;
         }
     }
+
+    public void PlayWrappedExplosionSound()
+    {
+        if (specialType == SpecialType.Wrapped)
+        {
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlayWrappedExplosion();
+            }
+        }
+    }
 }

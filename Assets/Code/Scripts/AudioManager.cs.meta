@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: eeeb519a90577184dbec38da7fd2ffe7
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - bgMusicSource: {instanceID: 0}
+  - sfxSource: {instanceID: 0}
+  - wrappedExplosion: {fileID: 8300000, guid: a161fb751fac391458295322d22247a3, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
