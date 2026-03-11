@@ -109,6 +109,7 @@ public class BoardManager : MonoBehaviour
 
     private IEnumerator ProcessSwapRoutine(Candy currentCandy, Candy targetCandy, Vector2Int swipeDirection)
     {
+        if (AudioManager.instance != null) AudioManager.instance.PlaySwapSound();
         DoSwap(currentCandy, targetCandy);
         yield return new WaitForSeconds(swapTime);
 
@@ -131,6 +132,11 @@ public class BoardManager : MonoBehaviour
 
         if (isColorBombSwap)
         {
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlayWrappedExplosion();
+            }
+
             UIManager.Instance.UseMove();
 
             // Gom tất cả kẹo cùng màu lại để nổ
@@ -166,6 +172,7 @@ public class BoardManager : MonoBehaviour
         }
         else
         {
+            if (AudioManager.instance != null) AudioManager.instance.PlayErrorSound();
             DoSwap(currentCandy, targetCandy);
             yield return new WaitForSeconds(swapTime);
             currentState = GameState.Playing;
@@ -193,9 +200,61 @@ public class BoardManager : MonoBehaviour
     {
         List<Candy> allCandiesToDestroy = specialHandler.GetCandiesAffectedBySpecials(matchedCandies);
 
-        // XÓA DÒNG NÀY: UIManager.Instance.AddScore(allCandiesToDestroy.Count * 10);
+        // --- LOGIC PHÂN LOẠI ÂM THANH NỔ ---
+        if (allCandiesToDestroy.Count > 0 && AudioManager.instance != null)
+        {
+            SpecialType highestSpecial = SpecialType.None;
 
-        // Hủy các viên kẹo
+            // Quét xem trong đám kẹo sắp vỡ có viên kẹo xịn nào không
+            foreach (Candy candy in allCandiesToDestroy)
+            {
+                if (candy != null && candy.specialType != SpecialType.None)
+                {
+                    // Ưu tiên 1: Bom Màu
+                    if (candy.specialType == SpecialType.ColorBomb)
+                    {
+                        highestSpecial = SpecialType.ColorBomb;
+                        break; // Gặp trùm cuối rồi thì thoát vòng lặp luôn
+                    }
+                    // Ưu tiên 2: Kẹo Gói
+                    else if (candy.specialType == SpecialType.Wrapped && highestSpecial != SpecialType.ColorBomb)
+                    {
+                        highestSpecial = SpecialType.Wrapped;
+                    }
+                    // Ưu tiên 3: Kẹo Sọc
+                    else if ((candy.specialType == SpecialType.Horizontal || candy.specialType == SpecialType.Vertical) && highestSpecial == SpecialType.None)
+                    {
+                        highestSpecial = SpecialType.Horizontal;
+                    }
+                }
+            }
+
+            // Phát âm thanh dựa trên loại kẹo xịn nhất có mặt trong vụ nổ
+            if (highestSpecial == SpecialType.Wrapped)
+            {
+                AudioManager.instance.PlayWrappedExplosion();
+            }
+            else if (highestSpecial == SpecialType.Wrapped)
+            {
+               
+            }
+            else if (highestSpecial == SpecialType.Horizontal || highestSpecial == SpecialType.Vertical)
+            {
+               
+            }
+            else if (highestSpecial == SpecialType.ColorBomb)
+            {
+
+            }
+            else
+            {
+                // Không có kẹo đặc biệt nào -> Phát tiếng nối 3 bình thường
+                AudioManager.instance.PlayPopSound();
+            }
+        }
+        // --- KẾT THÚC LOGIC PHÂN LOẠI ÂM THANH ---
+
+        // Hủy các viên kẹo (Phần này giữ nguyên code của bạn)
         foreach (Candy candy in allCandiesToDestroy)
         {
             if (candy == null) continue;
@@ -203,10 +262,7 @@ public class BoardManager : MonoBehaviour
             int x = candy.xIndex;
             int y = candy.yIndex;
 
-            // --- THÊM DÒNG NÀY: Báo cho UIManager biết loại kẹo nào vừa nổ ---
             UIManager.Instance.CollectCandy(candy.candyType);
-
-
 
             if (allCandies[x, y] == candy)
             {

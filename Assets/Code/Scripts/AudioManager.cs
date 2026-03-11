@@ -11,6 +11,10 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxSource;
 
     public AudioClip wrappedExplosion;
+    public AudioClip swapSound;      // Thêm âm thanh vuốt
+    public AudioClip errorSound;     // Thêm âm thanh vuốt lỗi
+    public AudioClip landingSound;
+    public AudioClip popSound;
 
     void Awake()
     {
@@ -27,6 +31,31 @@ public class AudioManager : MonoBehaviour
 
     public void PlayWrappedExplosion()
     {
-        sfxSource.PlayOneShot(wrappedExplosion);
+        if (wrappedExplosion != null)
+        {
+            sfxSource.PlayOneShot(wrappedExplosion);
+        }
+    }
+
+    // --- THÊM 2 HÀM NÀY ---
+    public void PlaySwapSound()
+    {
+        if (swapSound != null) sfxSource.PlayOneShot(swapSound);
+    }
+
+    public void PlayErrorSound()
+    {
+        if (errorSound != null) sfxSource.PlayOneShot(errorSound);
+    }
+    public void PlayLandingSound()
+    {
+        if (landingSound != null)
+        {
+            sfxSource.PlayOneShot(landingSound);
+        }
+    }
+    public void PlayPopSound()
+    {
+        if (popSound != null) sfxSource.PlayOneShot(popSound);
     }
 }

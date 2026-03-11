@@ -57,6 +57,13 @@ public class GravitySystem : MonoBehaviour
         if (hasFallen)
         {
             yield return new WaitForSeconds(fallDelay);
+
+            // --- VỊ TRÍ 1: CHÈN ÂM THANH RƠI Ở ĐÂY ---
+            // Phát âm thanh khi các viên kẹo cũ vừa rơi lấp đầy chỗ trống
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlayLandingSound();
+            }
         }
 
         // 2. SINH KẸO MỚI LẤP ĐẦY BẢNG
@@ -96,6 +103,13 @@ public class GravitySystem : MonoBehaviour
         if (hasSpawned)
         {
             yield return new WaitForSeconds(fallDelay);
+
+            //// --- VỊ TRÍ 2: CHÈN ÂM THANH RƠI Ở ĐÂY ---
+            //// Phát âm thanh khi các viên kẹo mới vừa sinh ra đã rơi chạm bảng
+            //if (AudioManager.instance != null)
+            //{
+            //    AudioManager.instance.PlayLandingSound();
+            //}
         }
 
         // 3. KẾT THÚC RƠI -> BÁO BOARD MANAGER KIỂM TRA COMBO LIÊN HOÀN
