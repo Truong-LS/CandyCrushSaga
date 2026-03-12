@@ -11,6 +11,7 @@ public class AudioManager : MonoBehaviour
     public AudioSource sfxSource;
 
     public AudioClip wrappedExplosion;
+    public AudioClip HoriVertiExplosion;
     public AudioClip swapSound;      // Thêm âm thanh vuốt
     public AudioClip errorSound;     // Thêm âm thanh vuốt lỗi
     public AudioClip landingSound;
@@ -31,9 +32,17 @@ public class AudioManager : MonoBehaviour
 
     public void PlayWrappedExplosion()
     {
+        
         if (wrappedExplosion != null)
         {
             sfxSource.PlayOneShot(wrappedExplosion);
+        }
+    }
+    public void PlayHoriVertiExplosion()
+    {
+        if (HoriVertiExplosion != null)
+        {
+            sfxSource.PlayOneShot(HoriVertiExplosion);
         }
     }
 

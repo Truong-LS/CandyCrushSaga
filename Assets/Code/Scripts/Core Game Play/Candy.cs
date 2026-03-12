@@ -6,6 +6,10 @@ public class Candy : MonoBehaviour
 {
     public SpecialType specialType = SpecialType.None;
 
+    [Header("Effects")] //phần của ai kẹo nào thì tạo thêm đầu vào effect nha, hori với verti của t thì script logic xử này này tên là DestroyCandy
+                        //ở cuối file á, nào tới hiệu ứng của wrapped với boom thì sửa vô đó hen
+    public GameObject destroyEffect;
+
     [Header("Candy Data")]
     public int xIndex;
     public int yIndex;
@@ -110,5 +114,49 @@ public class Candy : MonoBehaviour
                 AudioManager.instance.PlayWrappedExplosion();
             }
         }
+    }
+    //public void DestroyCandy()
+    //{
+    //    if (specialType != SpecialType.None && destroyEffect != null)
+    //    {
+    //        Quaternion rotation = Quaternion.identity;
+
+    //        // Nếu là kẹo ngang
+    //        if (specialType == SpecialType.Horizontal)
+    //        {
+    //            rotation = Quaternion.Euler(0, 0, 90);
+    //        }
+
+    //        // Nếu là kẹo dọc
+    //        if (specialType == SpecialType.Vertical)
+    //        {
+    //            rotation = Quaternion.Euler(0, 0, 0);
+    //        }
+
+    //        GameObject fx = Instantiate(destroyEffect, transform.position, rotation);
+    //        Destroy(fx, 2f);
+    //    }
+
+    //    Destroy(gameObject);
+    //}
+    public void DestroyCandy()
+    {
+        if ((specialType == SpecialType.Horizontal || specialType == SpecialType.Vertical) && destroyEffect != null)
+        {
+            GameObject fx = Instantiate(destroyEffect, transform.position, Quaternion.identity);
+
+            if (specialType == SpecialType.Horizontal)
+            {
+                fx.transform.localScale = new Vector3(5f, 1f, 1f); // beam ngang
+            }
+            else if (specialType == SpecialType.Vertical)
+            {
+                fx.transform.localScale = new Vector3(1f, 5f, 1f); // beam dọc
+            }
+
+            Destroy(fx, 2f);
+        }
+
+        Destroy(gameObject);
     }
 }

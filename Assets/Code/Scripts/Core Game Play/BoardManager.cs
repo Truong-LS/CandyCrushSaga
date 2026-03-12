@@ -240,7 +240,7 @@ public class BoardManager : MonoBehaviour
             }
             else if (highestSpecial == SpecialType.Horizontal || highestSpecial == SpecialType.Vertical)
             {
-               
+               AudioManager.instance.PlayHoriVertiExplosion();
             }
             else if (highestSpecial == SpecialType.ColorBomb)
             {
@@ -269,7 +269,8 @@ public class BoardManager : MonoBehaviour
                 allCandies[x, y] = null;
             }
 
-            Destroy(candy.gameObject);
+            //Destroy(candy.gameObject);
+            candy.DestroyCandy();
         }
 
         gravitySystem.StartGravity();
