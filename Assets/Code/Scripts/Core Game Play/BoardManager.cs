@@ -244,7 +244,7 @@ public class BoardManager : MonoBehaviour
             }
             else if (highestSpecial == SpecialType.ColorBomb)
             {
-
+                AudioManager.instance.PlaySwapEspecialSound();
             }
             else
             {

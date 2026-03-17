@@ -9,9 +9,9 @@ public class AudioManager : MonoBehaviour
 
     [Header("Sound Effects")]
     public AudioSource sfxSource;
-
+    public AudioClip especialSwap; // swap 4-5 viên thì có tiếng làyyyyy
     public AudioClip wrappedExplosion;
-    public AudioClip HoriVertiExplosion;
+    public AudioClip HoriVertiExplosion; //âm thanh nổ kẹo sọc ngang sọc dọc hen
     public AudioClip swapSound;      // Thêm âm thanh vuốt
     public AudioClip errorSound;     // Thêm âm thanh vuốt lỗi
     public AudioClip landingSound;
@@ -48,6 +48,10 @@ public class AudioManager : MonoBehaviour
 
     // --- THÊM 2 HÀM NÀY ---
     public void PlaySwapSound()
+    {
+        if (especialSwap != null) sfxSource.PlayOneShot(especialSwap);
+    }
+    public void PlaySwapEspecialSound()
     {
         if (swapSound != null) sfxSource.PlayOneShot(swapSound);
     }
