@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpecialCandyHandler : MonoBehaviour
 {
     private BoardManager boardManager;
+    public bool flag = false;
 
     void Awake()
     {
@@ -71,6 +72,7 @@ public class SpecialCandyHandler : MonoBehaviour
             }
 
             CreateSpecialCandy(spawnX, spawnY, colorType, stripedType);
+            flag = true;
         }
     }
 

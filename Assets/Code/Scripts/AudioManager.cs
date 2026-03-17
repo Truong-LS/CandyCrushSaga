@@ -49,11 +49,11 @@ public class AudioManager : MonoBehaviour
     // --- THÊM 2 HÀM NÀY ---
     public void PlaySwapSound()
     {
-        if (especialSwap != null) sfxSource.PlayOneShot(especialSwap);
+        if (swapSound != null) sfxSource.PlayOneShot(swapSound);
     }
     public void PlaySwapEspecialSound()
     {
-        if (swapSound != null) sfxSource.PlayOneShot(swapSound);
+        if (especialSwap != null) sfxSource.PlayOneShot(especialSwap);
     }
 
     public void PlayErrorSound()

@@ -244,12 +244,20 @@ public class BoardManager : MonoBehaviour
             }
             else if (highestSpecial == SpecialType.ColorBomb)
             {
-                AudioManager.instance.PlaySwapEspecialSound();
+                //AudioManager.instance.PlaySwapEspecialSound();
             }
             else
             {
-                // Không có kẹo đặc biệt nào -> Phát tiếng nối 3 bình thường
-                AudioManager.instance.PlayPopSound();
+                if (!specialHandler.flag)
+                {
+                    AudioManager.instance.PlayPopSound();// Không có kẹo đặc biệt nào -> Phát tiếng nối 3 bình thường
+                }
+                else
+                {
+                    AudioManager.instance.PlaySwapEspecialSound(); // nếu swap tạo ra kẹo sọc hoặc kẹo gói
+                    specialHandler.flag = false;
+                }
+                
             }
         }
         // --- KẾT THÚC LOGIC PHÂN LOẠI ÂM THANH ---
