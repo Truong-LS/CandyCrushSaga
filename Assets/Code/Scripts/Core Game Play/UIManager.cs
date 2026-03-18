@@ -110,7 +110,10 @@ public class UIManager : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("🎉 CHIẾN THẮNG! Đang chuyển cảnh...");
-
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlayWinSound();
+            }
             // Gọi hàm chờ rồi chuyển scene
             StartCoroutine(LoadSceneAfterDelay(winSceneName));
         }
@@ -125,7 +128,10 @@ public class UIManager : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("💀 THUA CUỘC! Đang chuyển cảnh...");
-
+            if (AudioManager.instance != null)
+            {
+                AudioManager.instance.PlayLoseSound();
+            }
             // Gọi hàm chờ rồi chuyển scene
             StartCoroutine(LoadSceneAfterDelay(loseSceneName));
         }

@@ -6,10 +6,18 @@ MonoImporter:
   defaultReferences:
   - bgMusicSource: {instanceID: 0}
   - sfxSource: {instanceID: 0}
-  - wrappedExplosion: {fileID: 8300000, guid: a161fb751fac391458295322d22247a3, type: 3}
+  - especialSwap: {instanceID: 0}
+  - wrappedExplosion: {instanceID: 0}
+  - HoriVertiExplosion: {instanceID: 0}
   - swapSound: {fileID: 8300000, guid: 5414a74cb1acf6f4cb2bcb53a33c1cb6, type: 3}
   - errorSound: {fileID: 8300000, guid: 9cc2f17beb63abb4ab8554d40a0fa5d3, type: 3}
   - landingSound: {fileID: 8300000, guid: 5c529e33682fa9b49aa389b395a9d42c, type: 3}
+  - popSound: {instanceID: 0}
+  - createWrappedSound: {fileID: 8300000, guid: d2878abe4fdd7b74293e774dda771574, type: 3}
+  - colorBombExplosion: {fileID: 8300000, guid: cc9d65b9bf9d8dd4d9d37035ef35fa52, type: 3}
+  - createColorBombSound: {fileID: 8300000, guid: fc2cf4c604752e742af9d8388f31feb3, type: 3}
+  - winSound: {fileID: 8300000, guid: f37cc5155df08bd46955c95c6cc1c1c5, type: 3}
+  - loseSound: {fileID: 8300000, guid: 49f43aaec5034c0439c859eef2a4de3f, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

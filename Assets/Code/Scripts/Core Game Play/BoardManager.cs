@@ -134,7 +134,7 @@ public class BoardManager : MonoBehaviour
         {
             if (AudioManager.instance != null)
             {
-                AudioManager.instance.PlayWrappedExplosion();
+                AudioManager.instance.PlayColorBombExplosion();
             }
 
             UIManager.Instance.UseMove();
@@ -234,17 +234,13 @@ public class BoardManager : MonoBehaviour
             {
                 AudioManager.instance.PlayWrappedExplosion();
             }
-            else if (highestSpecial == SpecialType.Wrapped)
-            {
-               
-            }
             else if (highestSpecial == SpecialType.Horizontal || highestSpecial == SpecialType.Vertical)
             {
-               AudioManager.instance.PlayHoriVertiExplosion();
+                AudioManager.instance.PlayHoriVertiExplosion();
             }
             else if (highestSpecial == SpecialType.ColorBomb)
             {
-                //AudioManager.instance.PlaySwapEspecialSound();
+                AudioManager.instance.PlayCreateColorBombSound();
             }
             else
             {
@@ -257,7 +253,7 @@ public class BoardManager : MonoBehaviour
                     AudioManager.instance.PlaySwapEspecialSound(); // nếu swap tạo ra kẹo sọc hoặc kẹo gói
                     specialHandler.flag = false;
                 }
-                
+
             }
         }
         // --- KẾT THÚC LOGIC PHÂN LOẠI ÂM THANH ---
@@ -349,6 +345,18 @@ public class BoardManager : MonoBehaviour
 
         newCandyObj.transform.parent = this.transform;
         newCandyObj.name = $"Special Candy ({x}, {y})";
+
+        if (AudioManager.instance != null)
+        {
+            if (specialType == SpecialType.Wrapped)
+            {
+                AudioManager.instance.PlayCreateWrappedSound();
+            }
+            else if (specialType == SpecialType.ColorBomb)
+            {
+                AudioManager.instance.PlayCreateColorBombSound();
+            }
+        }
     }
 
 

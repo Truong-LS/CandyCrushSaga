@@ -9,13 +9,18 @@ public class AudioManager : MonoBehaviour
 
     [Header("Sound Effects")]
     public AudioSource sfxSource;
-    public AudioClip especialSwap; // swap 4-5 viên thì có tiếng làyyyyy
+    public AudioClip especialSwap;
     public AudioClip wrappedExplosion;
-    public AudioClip HoriVertiExplosion; //âm thanh nổ kẹo sọc ngang sọc dọc hen
-    public AudioClip swapSound;      // Thêm âm thanh vuốt
-    public AudioClip errorSound;     // Thêm âm thanh vuốt lỗi
+    public AudioClip HoriVertiExplosion;
+    public AudioClip swapSound;
+    public AudioClip errorSound;
     public AudioClip landingSound;
     public AudioClip popSound;
+    public AudioClip createWrappedSound;
+    public AudioClip colorBombExplosion;
+    public AudioClip createColorBombSound;
+    public AudioClip winSound;
+    public AudioClip loseSound;
 
     void Awake()
     {
@@ -32,7 +37,7 @@ public class AudioManager : MonoBehaviour
 
     public void PlayWrappedExplosion()
     {
-        
+
         if (wrappedExplosion != null)
         {
             sfxSource.PlayOneShot(wrappedExplosion);
@@ -70,5 +75,28 @@ public class AudioManager : MonoBehaviour
     public void PlayPopSound()
     {
         if (popSound != null) sfxSource.PlayOneShot(popSound);
+    }
+
+    public void PlayCreateWrappedSound()
+    {
+        if (createWrappedSound != null) sfxSource.PlayOneShot(createWrappedSound);
+    }
+    public void PlayColorBombExplosion()
+    {
+        if (colorBombExplosion != null) sfxSource.PlayOneShot(colorBombExplosion);
+    }
+
+    public void PlayCreateColorBombSound()
+    {
+        if (createColorBombSound != null) sfxSource.PlayOneShot(createColorBombSound);
+    }
+    public void PlayWinSound()
+    {
+        if (winSound != null) sfxSource.PlayOneShot(winSound);
+    }
+
+    public void PlayLoseSound()
+    {
+        if (loseSound != null) sfxSource.PlayOneShot(loseSound);
     }
 }

@@ -336,6 +336,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5868d2a881444094b918f63c4075fe88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SpecialCandyHandler
+  flag: 0
 --- !u!114 &706947591
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -437,6 +438,11 @@ MonoBehaviour:
   errorSound: {fileID: 8300000, guid: 9cc2f17beb63abb4ab8554d40a0fa5d3, type: 3}
   landingSound: {fileID: 8300000, guid: 5c529e33682fa9b49aa389b395a9d42c, type: 3}
   popSound: {fileID: 8300000, guid: 7d1bd7b661539c043a648e491cd17014, type: 3}
+  createWrappedSound: {fileID: 8300000, guid: d2878abe4fdd7b74293e774dda771574, type: 3}
+  colorBombExplosion: {fileID: 8300000, guid: cc9d65b9bf9d8dd4d9d37035ef35fa52, type: 3}
+  createColorBombSound: {fileID: 8300000, guid: fc2cf4c604752e742af9d8388f31feb3, type: 3}
+  winSound: {fileID: 8300000, guid: f37cc5155df08bd46955c95c6cc1c1c5, type: 3}
+  loseSound: {fileID: 8300000, guid: 49f43aaec5034c0439c859eef2a4de3f, type: 3}
 --- !u!82 &706947597
 AudioSource:
   m_ObjectHideFlags: 0
@@ -859,7 +865,7 @@ MonoBehaviour:
   movesText: {fileID: 1360128394}
   goals:
   - candyType: 0
-    targetAmount: 20
+    targetAmount: 100
     currentAmount: 0
     uiText: {fileID: 2111663909}
   - candyType: 0
@@ -898,7 +904,7 @@ MonoBehaviour:
     targetAmount: 0
     currentAmount: 0
     uiText: {fileID: 0}
-  maxMoves: 20
+  maxMoves: 2
   currentMoves: 0
   winSceneName: WinScene
   loseSceneName: LoseScene
