@@ -1,8 +1,8 @@
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.SceneManagement;
+
 public class SceneController : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void PlayGame()
     {
         SceneManager.LoadScene("MainMenu");
@@ -10,5 +10,13 @@ public class SceneController : MonoBehaviour
     public void ChangeSceneMap(string scenceName)
     {
         SceneManager.LoadScene(scenceName);
+    }
+    public void PlayOnCurrentLevel()
+    {
+        int currentLevel = PlayerPrefs.GetInt("SavedLevel", 1);
+
+        string sceneToLoad = "InGame_" + currentLevel;
+
+        SceneManager.LoadScene(sceneToLoad);
     }
 }

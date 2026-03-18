@@ -609,8 +609,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -225}
-  m_SizeDelta: {x: 70, y: 70}
+  m_AnchoredPosition: {x: -1.1545, y: -221.6848}
+  m_SizeDelta: {x: 79.5585, y: 73.1862}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &490031184
 MonoBehaviour:
@@ -655,7 +655,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 490031185}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1557478771}
+        m_TargetAssemblyTypeName: SceneController, Assembly-CSharp
+        m_MethodName: ChangeSceneMap
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: InGame_2
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &490031185
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -29,6 +29,10 @@ public class BackgroundMusicManager : MonoBehaviour
         {
             audioSource.Stop(); // dừng nhạc khi vào game
         }
+        else if (scene.name == "InGame_2")
+        {
+            audioSource.Stop(); // dừng nhạc khi vào game
+        }
         else if (!audioSource.isPlaying && (scene.name == "Map" || scene.name == "MainMenu"))
         {
             audioSource.Play(); // bật lại nếu quay về menu/map

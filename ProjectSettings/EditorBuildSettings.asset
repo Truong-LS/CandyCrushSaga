@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Level/Scenes/InGame_1.unity
     guid: a5ba0abaa94503c478d215d74358c8f5
   - enabled: 1
+    path: Assets/Level/Scenes/InGame_2.unity
+    guid: 21ec54c51877ebc439190331f08d9a4e
+  - enabled: 1
     path: Assets/Level/Scenes/SettingInGame.unity
     guid: 1a35c297f013bdc4a806a66a04c156d6
   - enabled: 1
