@@ -9,6 +9,7 @@ public class Candy : MonoBehaviour
     [Header("Effects")] //phần của ai kẹo nào thì tạo thêm đầu vào effect nha, hori với verti của t thì script logic xử này này tên là DestroyCandy
                         //ở cuối file á, nào tới hiệu ứng của wrapped với boom thì sửa vô đó hen
     public GameObject destroyEffect;
+    public GameObject destroyEffectWrapped;
 
     [Header("Candy Data")]
     public int xIndex;
@@ -155,8 +156,19 @@ public class Candy : MonoBehaviour
             }
 
             Destroy(fx, 2f);
+        }else if(specialType == SpecialType.Wrapped && destroyEffectWrapped != null) {
+            // Spawn hiệu ứng nổ
+            GameObject fx = Instantiate(destroyEffectWrapped, transform.position, Quaternion.identity);
+
+            // 🔊 Phát âm thanh
+            PlayWrappedExplosionSound();
+
+            // Có thể scale to hơn cho đã
+            fx.transform.localScale = new Vector3(2f, 2f, 2f);
+
+            Destroy(fx, 2f);
         }
 
-        Destroy(gameObject);
+            Destroy(gameObject);
     }
 }

@@ -27,6 +27,11 @@ public class AudioManager : MonoBehaviour
         if (instance == null)
         {
             instance = this;
+            float music = PlayerPrefs.GetFloat("MusicVolume", 1f);
+            float sfx = PlayerPrefs.GetFloat("SFXVolume", 1f);
+
+            SetMusicVolume(music);
+            SetSFXVolume(sfx);
             DontDestroyOnLoad(gameObject); // giữ khi đổi scene
         }
         else
@@ -98,5 +103,17 @@ public class AudioManager : MonoBehaviour
     public void PlayLoseSound()
     {
         if (loseSound != null) sfxSource.PlayOneShot(loseSound);
+    }
+
+    public void SetMusicVolume(float value)
+    {
+        if (bgMusicSource != null)
+            bgMusicSource.volume = value;
+    }
+
+    public void SetSFXVolume(float value)
+    {
+        if (sfxSource != null)
+            sfxSource.volume = value;
     }
 }
