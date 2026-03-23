@@ -110,6 +110,42 @@ public class UIManager : MonoBehaviour
         {
             isGameOver = true;
             Debug.Log("🎉 CHIẾN THẮNG! Đang chuyển cảnh...");
+
+            // ==========================================
+            // --- LOGIC LƯU GAME MỞ KHÓA MÀN TIẾP THEO ---
+            // ==========================================
+            string currentSceneName = SceneManager.GetActiveScene().name;
+            Debug.Log("Tên Scene hiện tại là: " + currentSceneName);
+
+            // Kiểm tra xem tên Scene có chứa chữ "InGame_" không
+            if (currentSceneName.Contains("InGame_"))
+            {
+                // Cắt bỏ chữ "InGame_" để lấy phần số (VD: "InGame_1" -> "1")
+                string numberString = currentSceneName.Replace("InGame_", "");
+
+                // Ép kiểu chữ thành số
+                if (int.TryParse(numberString, out int levelNumber))
+                {
+                    int nextLevel = levelNumber + 1; // Tính ra màn tiếp theo
+
+                    // Đọc sổ xem đang mở đến màn mấy
+                    int currentUnlockedLevel = PlayerPrefs.GetInt("SavedLevel", 1);
+
+                    // Chỉ lưu nếu kỷ lục mới cao hơn kỷ lục cũ
+                    if (nextLevel > currentUnlockedLevel)
+                    {
+                        PlayerPrefs.SetInt("SavedLevel", nextLevel);
+                        PlayerPrefs.Save(); // Chốt sổ!
+                        Debug.Log("Đã mở khóa thành công màn: " + nextLevel);
+                    }
+                }
+                else
+                {
+                    Debug.LogError("LỖI: Không đọc được số từ tên Scene: " + currentSceneName);
+                }
+            }
+            // ==========================================
+
             if (AudioManager.instance != null)
             {
                 AudioManager.instance.PlayWinSound();
